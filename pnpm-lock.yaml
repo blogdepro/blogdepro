@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   parcel: ^2.8.3
+  prettier: ^2.8.7
 
 devDependencies:
   parcel: 2.8.3
+  prettier: 2.8.7
 
 packages:
 
@@ -1501,6 +1503,12 @@ packages:
     dependencies:
       posthtml-parser: 0.11.0
       posthtml-render: 3.0.0
+    dev: true
+
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /react-error-overlay/6.0.9:

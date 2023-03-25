@@ -2,9 +2,10 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --dist-dir docs"
   },
-	"devDependencies": {
-		"parcel": "^2.8.3"
-	}
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.7"
+  }
 }
